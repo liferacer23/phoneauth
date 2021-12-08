@@ -1,9 +1,10 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 
-
+const {REACT_APP_API_KEY}=process.env;
 const firebaseConfig = {
-  apiKey: "AIzaSyDzHkeJ6cbGbNoqFh0bPvfCPy34FtX92ys",
+  
+  apiKey: REACT_APP_API_KEY,
   authDomain: "phone-auth-cbd7f.firebaseapp.com",
   projectId: "phone-auth-cbd7f",
   storageBucket: "phone-auth-cbd7f.appspot.com",
